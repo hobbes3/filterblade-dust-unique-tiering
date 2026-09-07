@@ -10,19 +10,25 @@ This module moves uniques out of the default tier to the new dust tiers based on
 
 There are 3 types of tiers (all gold text):
 
-- (Guaranteed) **Dust** (Tier): The item will always dust well.
+- (Guaranteed) **Dust** (Tier)
+  - The item will always dust well.
   - For example, there is only one unique "Blue Pearl Amulet", `Gloomfang`, and it dusts for 37k.
   - Filter: Purple background, white border
-- **Either Dust**: The item will dust ok, but occasionally dusts even better.
+- **Either Dust**
+  - The item will dust ok, but occasionally dusts even better.
   - For example, "Sinner Tricone" will usually be `Alpha's Howl` for 26k or it's sometimes `Assailum` for 42k.
   - Filter: Purple background, gold border
-- **Rarely Dust**: The item usually won't dust well, but rarely will dust very well.
+- **Rarely Dust**
+  - The item usually won't dust well, but rarely will dust very well.
+  - This is like checking "Heavy Belt" for a `Mageblood` jackpot.
   - For example, "Imperial Skean" is almost always `White Wind` for 14k, but very rarely it can be `Divinarius` for 1.4M!
   - Filter: Blue background, gold border
 
-**TLDR**: Auto-pickup purple background, check blue.
+### **TLDR**: Auto-pickup purple background, check blue.
 
-The applicable uniques are those found during normal mapping, not from boss drops or selection windows like Ritual.
+Generally, purple items gives more consistent, but lower dust, while blue items give higher dust if it's valuable.
+
+The applicable uniques are those found during normal mapping. Some, but not all, uniques are categorized from boss drops or selection windows like Ritual.
 
 Lastly, don't forget to 20% quality any good dusting uniques and keep Rog happy!
 
@@ -55,15 +61,15 @@ Simply load your filter with the module on FilterBlade and you'll see a popup li
 
 ## Suggestions or issues
 
-For suggestions, please [create a new discussion](../../discussions/new).
+For suggestions, please [create a new discussion](../../discussions).
 
-For issues, please [create a new issue](../../issues/new).
+For issues, please [create a new issue](../../issues).
 
 ## Troubleshooting
 
 Start with a clean filter and re-add the module.
 
-If you still need help, then feel free to [create a new discussion](../../discussions/new).
+If you still need help, then feel free to [create a new discussion](../../discussions).
 
 ## Resources
 
